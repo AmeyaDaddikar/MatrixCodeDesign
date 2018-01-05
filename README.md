@@ -1,6 +1,6 @@
 # MatrixCodeDesign
 
-This a single page graphical immitation of the UI display used in the Matrix trilogy movies. The canvas contains a streams of vertical texts of the [Katakana script](https://www.key-shortcut.com/en/writing-systems/%E3%81%B2%E3%82%89%E3%81%8C%E3%81%AA-japanese/) of the japanese literature, flowing downwards on a black background. 
+This a single page graphical immitation of the UI display used in the Matrix trilogy movies. The canvas contains streams of vertical texts of the [Katakana script](https://www.key-shortcut.com/en/writing-systems/%E3%81%B2%E3%82%89%E3%81%8C%E3%81%AA-japanese/) of the japanese literature, flowing downwards on a black background. 
 
 ![Screenshot](/screenshot1.png)
 
