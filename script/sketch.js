@@ -1,6 +1,7 @@
 let symbolColor = {rr:55, gg:160, bb:0};
 let symbolSize  = 16;
 let streams = [];
+let baseChar = 0x30A0;
 
 function setup() {
 	createCanvas(document.body.clientWidth,document.body.clientHeight);
@@ -34,7 +35,7 @@ var Symbol = function(x,y,speed,isGlowing){
 	this.isGlowing = isGlowing;
 	
 	this.value = String.fromCharCode(
-				0x30A0 
+				baseChar 
 				+ round(random(0,96))
 				);
 				
@@ -43,7 +44,7 @@ var Symbol = function(x,y,speed,isGlowing){
 	
 	this.randomizeSymbol = function(){
 		this.value = String.fromCharCode(
-			0x30A0 + round(random(0,96))
+			baseChar + round(random(0,96))
 		);
 	};
 	
